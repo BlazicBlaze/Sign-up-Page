@@ -1,4 +1,4 @@
 function fn()
 {
-  return alert('Hello World!');
+  alert('Hello World!');
 }

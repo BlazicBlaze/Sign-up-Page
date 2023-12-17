@@ -1,3 +1,3 @@
 function fn() {
-    console.log("Hello World!");
+    return alert('Hello World!');
 }

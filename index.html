@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title> Sign-up </title>
+    <link rel = "stylesheet" href = "index-style.css">
+  </head>
+  <body>
+    <div id = "registrationField">
+      <h2>Register</h2>
+      <form>
+        <label for = "usernameField"><b>Enter your name</b></label><br>
+        <input type = "text" id = "usernameField" class = "inputFields" name = "username">
+        <br><br>
+        <label for = "emailField"><b>Enter your email address</b></label><br>
+        <input type = "text" id = "emailField" class = "inputFields" name = "email">
+        <br><br>
+        <label for = "passwordField"><b>Enter your password</b></label><br>
+        <input type = "password" id = "passwordField" class = "inputFields" name = "password">
+        <br><br>
+        <input type = "submit" onclick = "getValues()">
+      </form>
+    </div>
+    
+    <script>
+      function getValues()
+      {
+        let nm = document.getElementById('usernameField').value;
+        let email = document.getElementById('emailField').value;
+        let pass = document.getElementById('passwordField').value;
+        alert(nm);
+        alert(email);
+        alert(pass);
+      }
+    </script>
+  </body>
+</html>

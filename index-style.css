@@ -1,0 +1,15 @@
+body {
+  background-color: #DC143C;
+  color: white;
+  font-family: Arial;
+}
+
+#registrationField {
+  background-color: #1e2124;
+  border: #7FFF00 solid;
+  border-radius: 5px;
+}
+
+.inputFields {
+  border: #7FFF00 solid;
+}

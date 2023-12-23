@@ -8,6 +8,8 @@ body {
   background-color: #1e2124;
   border: #7FFF00 solid;
   border-radius: 5px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 .inputFields {

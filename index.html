@@ -5,8 +5,32 @@
     <link rel = "stylesheet" href = "index-style.css">
   </head>
   <body>
-    <label for = "test">Enter your name:</label><br>
-    <input type = "text" id = "test" name = "username"><br><br>
-    <input type = "submit">
+    <div id = "registrationField">
+      <h2>Register</h2>
+      <form>
+        <label for = "usernameField">Enter your name</label><br>
+        <input type = "text" id = "usernameField" name = "username">
+        <br><br>
+        <label for = "emailField">Enter your email address</label><br>
+        <input type = "text" id = "emailField" name = "email">
+        <br><br>
+        <label for = "passwordField">Enter your password</label><br>
+        <input type = "password" id = "passwordField" name = "password">
+        <br><br>
+        <input type = "submit" onclick = "getValues()">
+      </form>
+    </div>
+    
+    <script>
+      function getValues()
+      {
+        let nm = document.getElementById('usernameField').value;
+        let email = document.getElementById('emailField').value;
+        let pass = document.getElementById('passwordField').value;
+        console.log(nm);
+        console.log(email);
+        console.log(pass);
+      }
+    </script>
   </body>
 </html>

@@ -12,14 +12,9 @@ body {
 #username {
   position: absolute;
   top: 35%;
-  /*left: 32.5%;*/
+  left: 32.5%;
   padding-left: 10px;
   padding-right: 10px;
   font-size: 53px;
   font-family: Arial;
-}
-
-#test {
-  display: block;
-  text-align: center;
 }

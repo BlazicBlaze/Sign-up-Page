@@ -18,7 +18,7 @@ body {
   font-size: 42px;
 }
 
-input {
+input, button[type = "submit"] {
   border: #7FFF00 solid;
   background-color: #2C2F33;
   color: white;
@@ -31,7 +31,15 @@ input {
   width: 500px;
 }
 
-input[type = "submit"] {
-  height: 40px;
+button[type = "submit"] {
+  height: 42px;
   width: 170px;
+}
+
+#submitAnchor {
+  text-decoration: none;
+  background-color: #2C2F33;
+  color: white;
+  font-family: Arial;
+  font-size: 32px;
 }

@@ -6,5 +6,4 @@ function getValues()
     
     if(nm === "" || email === "" || pass === "")
       alert("You cannot leave a field empty");
-    document.getElementById("submitButton").innerHTML = "Test";
   }

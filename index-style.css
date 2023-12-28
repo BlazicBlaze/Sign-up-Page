@@ -36,10 +36,10 @@ button[type = "submit"] {
   width: 170px;
 }
 
-/*#submitAnchor {
+#profilePageAnchor {
   text-decoration: none;
   background-color: #2C2F33;
   color: white;
   font-family: Arial;
   font-size: 32px;
-}*/
+}

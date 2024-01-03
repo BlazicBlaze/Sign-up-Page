@@ -12,5 +12,5 @@ function getValues()
   
   function changeSubmitToAnchor()
   {
-    document.getElementById("submitButton").innerHTML = '<a href = "#profile-page.html" id = "profilePageAnchor">Go to Profile</a>';
+    document.getElementById("submitButton").innerHTML = '<a href = "profile-page.html" id = "profilePageAnchor">Go to Profile</a>';
   }
